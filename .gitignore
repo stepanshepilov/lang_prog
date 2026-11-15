@@ -1,0 +1,33 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local configuration and generated data
+.env
+.env.*
+!.env.example
+*.sqlite3
+*.sqlite
+*.db
+*.log
+*.tmp
+*.bak
+uv.lock
+
+# Tools and operating systems
+.vscode/
+.idea/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.cache/
+.tox/
+.nox/
+.DS_Store
